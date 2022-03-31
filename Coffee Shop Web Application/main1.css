@@ -1,0 +1,141 @@
+
+
+body {
+  background-color: #3c3a28;
+  color: #8c8c8c;
+  font-family: "Open Sans", Arial, Helvetica, sans-serif;
+  font-size: 17px;
+  font-weight: 400;
+  padding: 10px;
+  margin: 0;
+}
+
+
+  max-width: 640px;
+  margin-left: auto;
+  margin-right: auto;
+  color: white;
+}
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+	object-fit: contain:
+}
+
+ul {
+  list-style-type: ;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+.centerbox {
+  max-width: 640px;
+  margin-left: auto;
+  margin-right: auto;
+  color: white;
+  text-align:center;
+}
+input {
+	align:left;
+  width: 100%;
+}
+input[type=button], input[type=submit], input[type=reset] {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+input[type=text] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+.button {
+  background-color: #4CAF20; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  display: block;
+  float: center;
+}
+.button:hover {
+  background-color: #4CAF50; /* Green */
+  color: white;
+}
+
+.btn-group button {
+  background-color: #4CAF50; /* Green background */
+  border: 1px solid green; /* Green border */
+  color: white; /* White text */
+  padding: 10px 24px; /* Some padding */
+  cursor: pointer; /* Pointer/hand icon */
+  width: 100%; /* Set a width if needed */
+  font-size: 24px;
+  display: block; /* Make the buttons appear below each other */
+}
+
+.btn-group button:not(:last-child) {
+  border-bottom: none; /* Prevent double borders */
+}
+
+/* Add a background color on hover */
+.btn-group button:hover {
+  background-color: #3e8e41;
+}
+footer {
+    clear: both;
+    margin-top: 1em;
+    border-top: 2px solid black;
+}
+footer p {
+    text-align: right;
+    font-size: 80%;
+    margin: 1em 0;
+}
+
+.bodyback { background-color: #ffffff; color:black; }
+
+table {
+  width: 100%;
+  border-spacing: 0;
+}
+
+td {
+color: black;
+  text-align: center;
+  padding: 10px 15px;
+}
+
+.itemslot { text-align: left; }
+
+th {
+	background-color: #3e8e41;
+  font-weight: 400;
+  font-size: 1.2rem;
+  color: white;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+
+tr {
+	color: #434343
+}
+tr:nth-child(even) {background-color: #f2f2f2;}
+tr:nth-child(odd) { background-color: #e5e8ed; }
